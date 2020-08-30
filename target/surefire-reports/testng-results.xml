@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Timber Exchange Test automtion regression suite" duration-ms="75377" started-at="2020-08-30T10:52:29Z" finished-at="2020-08-30T10:53:44Z">
+    <groups>
+    </groups>
+    <test name="Timber Exchange Feature Testing - home page - chrome" duration-ms="39422" started-at="2020-08-30T10:52:29Z" finished-at="2020-08-30T10:53:08Z">
+      <class name="com.qa.te.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="setUp" is-config="true" duration-ms="18529" started-at="2020-08-30T10:52:29Z" finished-at="2020-08-30T10:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageSetup()[pri:0, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="homePageSetup" is-config="true" duration-ms="17779" started-at="2020-08-30T10:52:48Z" finished-at="2020-08-30T10:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSetup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="verifyHomePageTitleTest" duration-ms="544" started-at="2020-08-30T10:53:06Z" finished-at="2020-08-30T10:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="verifyHomePageHeaderTest" duration-ms="558" started-at="2020-08-30T10:53:07Z" finished-at="2020-08-30T10:53:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="tearDown" is-config="true" duration-ms="1088" started-at="2020-08-30T10:53:07Z" finished-at="2020-08-30T10:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.te.tests.HomePageTest -->
+    </test> <!-- Timber Exchange Feature Testing - home page - chrome -->
+    <test name="Timber Exchange Feature Testing - Negotiation Page - chrome" duration-ms="34329" started-at="2020-08-30T10:53:10Z" finished-at="2020-08-30T10:53:44Z">
+      <class name="com.qa.te.tests.NegotationPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.te.tests.NegotationPageTest@4102b1b1]" name="setUp" is-config="true" duration-ms="12524" started-at="2020-08-30T10:53:10Z" finished-at="2020-08-30T10:53:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negotiationPageSetup()[pri:0, instance:com.qa.te.tests.NegotationPageTest@4102b1b1]" name="negotiationPageSetup" is-config="true" duration-ms="20806" started-at="2020-08-30T10:53:23Z" finished-at="2020-08-30T10:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negotiationPageSetup -->
+        <test-method status="PASS" signature="verifyNegotitationPageTitleTest()[pri:1, instance:com.qa.te.tests.NegotationPageTest@4102b1b1]" name="verifyNegotitationPageTitleTest" duration-ms="36" started-at="2020-08-30T10:53:44Z" finished-at="2020-08-30T10:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNegotitationPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.te.tests.NegotationPageTest@4102b1b1]" name="tearDown" is-config="true" duration-ms="883" started-at="2020-08-30T10:53:44Z" finished-at="2020-08-30T10:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.te.tests.NegotationPageTest -->
+    </test> <!-- Timber Exchange Feature Testing - Negotiation Page - chrome -->
+  </suite> <!-- Timber Exchange Test automtion regression suite -->
+</testng-results>
