@@ -1,44 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Timber Exchange Test automtion regression suite" duration-ms="75377" started-at="2020-08-30T10:52:29Z" finished-at="2020-08-30T10:53:44Z">
+  <suite name="Timber Exchange Test automtion regression suite" duration-ms="63164" started-at="2020-09-01T02:10:18Z" finished-at="2020-09-01T02:11:21Z">
     <groups>
     </groups>
-    <test name="Timber Exchange Feature Testing - home page - chrome" duration-ms="39422" started-at="2020-08-30T10:52:29Z" finished-at="2020-08-30T10:53:08Z">
-      <class name="com.qa.te.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="setUp" is-config="true" duration-ms="18529" started-at="2020-08-30T10:52:29Z" finished-at="2020-08-30T10:52:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePageSetup()[pri:0, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="homePageSetup" is-config="true" duration-ms="17779" started-at="2020-08-30T10:52:48Z" finished-at="2020-08-30T10:53:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageSetup -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="verifyHomePageTitleTest" duration-ms="544" started-at="2020-08-30T10:53:06Z" finished-at="2020-08-30T10:53:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="verifyHomePageHeaderTest" duration-ms="558" started-at="2020-08-30T10:53:07Z" finished-at="2020-08-30T10:53:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageHeaderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.te.tests.HomePageTest@7bd69e82]" name="tearDown" is-config="true" duration-ms="1088" started-at="2020-08-30T10:53:07Z" finished-at="2020-08-30T10:53:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.te.tests.HomePageTest -->
-    </test> <!-- Timber Exchange Feature Testing - home page - chrome -->
-    <test name="Timber Exchange Feature Testing - Negotiation Page - chrome" duration-ms="34329" started-at="2020-08-30T10:53:10Z" finished-at="2020-08-30T10:53:44Z">
+    <test name="Timber Exchange Feature Testing - Negotiation Page - chrome" duration-ms="63164" started-at="2020-09-01T02:10:18Z" finished-at="2020-09-01T02:11:21Z">
       <class name="com.qa.te.tests.NegotationPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.te.tests.NegotationPageTest@4102b1b1]" name="setUp" is-config="true" duration-ms="12524" started-at="2020-08-30T10:53:10Z" finished-at="2020-08-30T10:53:23Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.te.tests.NegotationPageTest@2a2bb0eb]" name="setUp" is-config="true" duration-ms="16293" started-at="2020-09-01T02:10:18Z" finished-at="2020-09-01T02:10:34Z">
           <params>
             <param index="0">
               <value>
@@ -49,15 +18,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="negotiationPageSetup()[pri:0, instance:com.qa.te.tests.NegotationPageTest@4102b1b1]" name="negotiationPageSetup" is-config="true" duration-ms="20806" started-at="2020-08-30T10:53:23Z" finished-at="2020-08-30T10:53:44Z">
+        <test-method status="PASS" signature="negotiationPageSetup()[pri:0, instance:com.qa.te.tests.NegotationPageTest@2a2bb0eb]" name="negotiationPageSetup" is-config="true" duration-ms="19101" started-at="2020-09-01T02:10:34Z" finished-at="2020-09-01T02:10:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negotiationPageSetup -->
-        <test-method status="PASS" signature="verifyNegotitationPageTitleTest()[pri:1, instance:com.qa.te.tests.NegotationPageTest@4102b1b1]" name="verifyNegotitationPageTitleTest" duration-ms="36" started-at="2020-08-30T10:53:44Z" finished-at="2020-08-30T10:53:44Z">
+        <test-method status="PASS" signature="verifyNegotitationPageTitleTest()[pri:1, instance:com.qa.te.tests.NegotationPageTest@2a2bb0eb]" name="verifyNegotitationPageTitleTest" duration-ms="359" started-at="2020-09-01T02:10:54Z" finished-at="2020-09-01T02:10:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNegotitationPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.te.tests.NegotationPageTest@4102b1b1]" name="tearDown" is-config="true" duration-ms="883" started-at="2020-08-30T10:53:44Z" finished-at="2020-08-30T10:53:44Z">
+        <test-method status="PASS" signature="createNewOfferTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.te.tests.NegotationPageTest@2a2bb0eb]" name="createNewOfferTest" duration-ms="23996" started-at="2020-09-01T02:10:56Z" data-provider="getOfferTestData" finished-at="2020-09-01T02:11:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test spec]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15/10/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test supplier]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RW]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewOfferTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.te.tests.NegotationPageTest@2a2bb0eb]" name="tearDown" is-config="true" duration-ms="851" started-at="2020-09-01T02:11:20Z" finished-at="2020-09-01T02:11:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

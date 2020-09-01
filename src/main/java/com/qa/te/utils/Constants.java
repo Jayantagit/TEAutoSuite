@@ -11,7 +11,7 @@ public class Constants {
 	
 	//*******************************Data Sheet Details**********
 
-	public static final String NEGOTATION_SHEET_NAME = "negotation";
+	public static final String NEGOTATION_SHEET_NAME = "negotiation";
 	
 	
 

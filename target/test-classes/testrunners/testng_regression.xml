@@ -21,7 +21,7 @@
 		</classes>
 
 	</test>
-	 -->
+
 
 	<test name="Timber Exchange Feature Testing - home page - chrome">
 		<parameter name="browser" value="chrome" />
@@ -31,7 +31,7 @@
 		</classes>
 
 	</test>
-
+	 -->
 	<test name="Timber Exchange Feature Testing - Negotiation Page - chrome">
 		<parameter name="browser" value="chrome" />
 

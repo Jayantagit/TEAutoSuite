@@ -56,7 +56,7 @@ public class HomePage extends BasePage{
 	}
 	
 	public void clickTourAlert(){
-		elementUtil.waitForElementPresent(endTourLink, 20);
+		elementUtil.waitForElementPresent(endTourLink, 30);
 		elementUtil.doClick(endTourLink);
 		
 	}
@@ -69,7 +69,7 @@ public class HomePage extends BasePage{
 	
 	private void clickOnNegotation(){
 		//elementUtil.doSwitchFrameByID(Constants.NEGOTIATION_PAGE_FRAME_ID);
-		elementUtil.waitForElementToBeClickable(exportArrowLink, 20);
+		elementUtil.waitForElementToBeClickable(exportArrowLink, 30);
 		//elementUtil.waitForElementPresent(exportArrowLink, 10);
 		//elementUtil.doClick(exportArrowLink);
 		elementUtil.doActionsClick(exportArrowLink);

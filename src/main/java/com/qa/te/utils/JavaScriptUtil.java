@@ -91,6 +91,13 @@ public class JavaScriptUtil {
 		js.executeScript("document.getElementByName('" + name + "').value='" + value + "'");
 	}
 
+	public void setDateUsingJS(WebElement element,String value)
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].setAttribute('value', '"+value+"')",element);
+		//DateFormat-14/09/2020
+	}
+	
 	public void checkPageIsReady() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		// Initially bellow given if condition will check ready state of page.

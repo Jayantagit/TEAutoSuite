@@ -13,7 +13,7 @@ public class ExcelUtil {
 
 	private static Workbook book;
 	private static Sheet sheet;
-	private static String TEST_DATA_SHEET_PATH = "./src/main/java/com/qa/hubspot/testdata/HubSpotTestData.xlsx";
+	private static String TEST_DATA_SHEET_PATH = "./src/main/java/com/qa/te/testdata/TimberExchangeTestData.xlsx";
 
 	public static Object[][] getTestData(String sheetName) {
 
@@ -22,8 +22,11 @@ public class ExcelUtil {
 		try {
 			FileInputStream ip = new FileInputStream(TEST_DATA_SHEET_PATH);
 			book = WorkbookFactory.create(ip);
+			System.out.println("Sheet Name-------->"+sheetName);
 			sheet = book.getSheet(sheetName);
-
+			System.out.println(sheet.getLastRowNum());
+			System.out.println(sheet.getRow(0).getLastCellNum());
+			
 			data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
 
 			for (int i = 0; i < sheet.getLastRowNum(); i++) {

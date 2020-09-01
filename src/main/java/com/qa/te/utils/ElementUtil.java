@@ -177,7 +177,7 @@ public class ElementUtil {
 		return wait.until(ExpectedConditions.alertIsPresent());
 	}
 	
-	
+		
 	public boolean isElementDisplayed(By locator, int timeout) {
 		WebElement element = null;
 		boolean flag = false;
@@ -224,5 +224,14 @@ public class ElementUtil {
 		
 		return element;
 	}
+	//***************************Custom Method***********************************
+	
+		public void clickLocationCustom(String value){
+			
+			String path="//div[text()='"+value +"']//preceding::span[@class='fs-checkbox']/i";
+			
+			WebElement location=driver.findElement(By.xpath(path));
+			location.click();
+		}
 	
 }

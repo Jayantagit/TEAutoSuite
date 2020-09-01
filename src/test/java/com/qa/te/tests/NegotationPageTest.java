@@ -38,9 +38,9 @@ public class NegotationPageTest extends BaseTest{
 		return data;
 	}
 	
-	@Test(priority = 2, dataProvider = "getOfferTestData", enabled=false)
-	public void createNewOfferTest(String customer, String destination, String supplier, String origin) {
-		negotiationPage.createOffer(customer, destination, supplier, origin);
+	@Test(priority = 2, dataProvider = "getOfferTestData")
+	public void createNewOfferTest(String specval, String validuntil,String location,String species,String dimension,String m3,String price) {
+		negotiationPage.createOffer(specval,validuntil,location,species,dimension,m3,price);
 		
 	}
 
