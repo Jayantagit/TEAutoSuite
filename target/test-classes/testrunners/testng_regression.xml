@@ -7,9 +7,10 @@
 	<listeners>
 		
 		<listener class-name="com.qa.te.testlisteners.ExtentReportListener" />
+		<listener class-name="com.qa.te.testlisteners.TestAllureListener" />
 
 		<!--<listener class-name="com.qa.te.testlisteners.TesultsListener" />
-		    <listener class-name="com.qa.te.testlisteners.TestAllureListener" />
+		    
             <listener class-name="com.qa.te.testlisteners.pdfListener" /> -->
 	</listeners>
 <!--
